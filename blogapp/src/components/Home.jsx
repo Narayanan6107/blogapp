@@ -19,6 +19,9 @@ function Home({blogs}) {
             <img src={blog.image} alt={blog.title} className="card-img" />
             <h2>{blog.title}</h2>
             <p>{blog.text}</p>
+            <button onClick={() => nav(`/details/${index}`)}>
+              View Details
+            </button>
           </div>
         ))}
       </div>
