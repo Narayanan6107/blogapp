@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.newbb{
+  height:50px;
+  background-color:blue;
+  border:none;
+  border-radius:10px;
+}
+
+.mainpg{
+  width:140vh;
+  height:90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.mainf {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  min-height: 90vh;
+  background: #1f1f1f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;  
+  gap: 15px;               
+  padding: 20px;
+  background: #2b2c2d;
+  border-radius: 10px;
+  box-shadow: #ffffff;
+  width: 800px;
+  height:600px;
+}
+
+form textarea{
+  height:500px;
+}
+
+label{
+  font-family:sans-serif;
+  display:flex;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: blue;
+  border: none;
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  height: 500px;
+
+  box-sizing: border-box;
+  overflow-wrap: break-word; 
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+
+
